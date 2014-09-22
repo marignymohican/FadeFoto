@@ -1,0 +1,27 @@
+.fadefoto { position: relative; margin: 20px 0 35px; padding: 0 0 5px; width: 100%; border-bottom:1px solid #CCC !important; border-radius: 0; }
+.fadefoto .cover { z-index: 600; position: absolute; top: 0; left: 0; height: 100%; width: 100%; }
+
+.fadefoto .foto-over { -webkit-transform: translateZ(0); z-index: 550; position: absolute; top: 0; left: 0; width: 100%; opacity: 0; }
+.fadefoto .foto-under { width: 100%; }
+
+/* ui fixes */
+.ui-slider-horizontal { height: auto; }
+.ui-widget-content { border: 0; }
+.ul-corner-all { border-radius: 0; }
+.ui-slider .ui-slider-handle { z-index: 600; height: 102%; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { background: none; border: none; }
+
+#mmfo > .fadefoto { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+#mmfo p {  font-size: 12px; font-family: sans-serif; color: #757575;  }
+
+.fb_iframe_widget_lift { z-index: 1000 !important; }
+
+@media screen and (max-width: 699px) {
+	.ffwrapper { margin: 0 25px; overflow: hidden; }
+}
+@media screen and (max-device-width: 699px) {
+	.ffwrapper { margin: 0 25px; overflow: hidden; }
+}
+
+
+
